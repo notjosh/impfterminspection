@@ -73,7 +73,7 @@ const Home: FunctionalComponent<Props> = () => {
 
   return (
     <div class={style.home}>
-      <h1>Home</h1>
+      <h1>Summary</h1>
       <p>The average wait time today for vaccinations:</p>
       <ul>
         <li>
