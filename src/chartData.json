@@ -1,161 +1,114 @@
 [
   {
-    "date": "2020-04-04",
+    "date": "2021-04-06",
     "vaccinations": [
       {
-        "days": 4,
-        "type": "astrazeneca",
-        "location": "tegel",
-        "insurance": "public"
-      },
-      {
-        "days": 4,
-        "type": "astrazeneca",
-        "location": "tegel",
-        "insurance": "private"
-      },
-      {
-        "days": 72,
-        "type": "biontech_pfizer",
-        "location": "tegel",
-        "insurance": "public"
-      },
-      {
-        "days": 72,
-        "type": "biontech_pfizer",
-        "location": "tegel",
-        "insurance": "private"
-      },
-      {
-        "days": 7,
-        "type": "astrazeneca",
-        "location": "tempelhof",
-        "insurance": "public"
-      },
-      {
-        "days": 7,
-        "type": "astrazeneca",
-        "location": "tempelhof",
-        "insurance": "private"
-      },
-      {
-        "days": 68,
-        "type": "biontech_pfizer",
-        "location": "velodrom",
-        "insurance": "public"
-      },
-      {
-        "days": 68,
-        "type": "biontech_pfizer",
-        "location": "velodrom",
-        "insurance": "private"
-      },
-      {
-        "days": 66,
-        "type": "biontech_pfizer",
-        "location": "messe",
-        "insurance": "public"
-      },
-      {
-        "days": 66,
-        "type": "biontech_pfizer",
-        "location": "messe",
-        "insurance": "private"
-      },
-      {
-        "days": 67,
+        "days": 64,
         "type": "biontech_pfizer",
         "location": "arena",
         "insurance": "public"
       },
       {
-        "days": 67,
+        "days": 64,
         "type": "biontech_pfizer",
         "location": "arena",
+        "insurance": "private"
+      },
+      {
+        "days": 62.833333333333336,
+        "type": "biontech_pfizer",
+        "location": "messe",
+        "insurance": "public"
+      },
+      {
+        "days": 62.833333333333336,
+        "type": "biontech_pfizer",
+        "location": "messe",
+        "insurance": "private"
+      },
+      {
+        "days": 73,
+        "type": "biontech_pfizer",
+        "location": "tegel",
+        "insurance": "public"
+      },
+      {
+        "days": null,
+        "type": "astrazeneca",
+        "location": "tegel",
+        "insurance": "public"
+      },
+      {
+        "days": 73,
+        "type": "biontech_pfizer",
+        "location": "tegel",
+        "insurance": "private"
+      },
+      {
+        "days": null,
+        "type": "astrazeneca",
+        "location": "tegel",
+        "insurance": "private"
+      },
+      {
+        "days": 8,
+        "type": "astrazeneca",
+        "location": "tempelhof",
+        "insurance": "public"
+      },
+      {
+        "days": 8,
+        "type": "astrazeneca",
+        "location": "tempelhof",
+        "insurance": "private"
+      },
+      {
+        "days": 68.5,
+        "type": "biontech_pfizer",
+        "location": "velodrom",
+        "insurance": "public"
+      },
+      {
+        "days": 68.5,
+        "type": "biontech_pfizer",
+        "location": "velodrom",
         "insurance": "private"
       }
     ]
   },
   {
-    "date": "2020-04-05",
+    "date": "2021-04-07",
     "vaccinations": [
       {
-        "days": null,
-        "type": "astrazeneca",
-        "location": "tegel",
-        "insurance": "public"
-      },
-      {
-        "days": null,
-        "type": "astrazeneca",
-        "location": "tegel",
-        "insurance": "private"
-      },
-      {
-        "days": 69,
-        "type": "biontech_pfizer",
-        "location": "tegel",
-        "insurance": "public"
-      },
-      {
-        "days": 69,
-        "type": "biontech_pfizer",
-        "location": "tegel",
-        "insurance": "private"
-      },
-      {
-        "days": 6,
-        "type": "astrazeneca",
-        "location": "tempelhof",
-        "insurance": "public"
-      },
-      {
-        "days": 6,
-        "type": "astrazeneca",
-        "location": "tempelhof",
-        "insurance": "private"
-      },
-      {
-        "days": 69,
-        "type": "biontech_pfizer",
-        "location": "velodrom",
-        "insurance": "public"
-      },
-      {
-        "days": 69,
-        "type": "biontech_pfizer",
-        "location": "velodrom",
-        "insurance": "private"
-      },
-      {
-        "days": 72,
-        "type": "biontech_pfizer",
-        "location": "messe",
-        "insurance": "public"
-      },
-      {
-        "days": 72,
-        "type": "biontech_pfizer",
-        "location": "messe",
-        "insurance": "private"
-      },
-      {
-        "days": 77,
+        "days": 63,
         "type": "biontech_pfizer",
         "location": "arena",
         "insurance": "public"
       },
       {
-        "days": 77,
+        "days": 63,
         "type": "biontech_pfizer",
         "location": "arena",
         "insurance": "private"
-      }
-    ]
-  },
-  {
-    "date": "2020-04-06",
-    "vaccinations": [
+      },
+      {
+        "days": 60.333333333333336,
+        "type": "biontech_pfizer",
+        "location": "messe",
+        "insurance": "public"
+      },
+      {
+        "days": 60.333333333333336,
+        "type": "biontech_pfizer",
+        "location": "messe",
+        "insurance": "private"
+      },
+      {
+        "days": 72,
+        "type": "biontech_pfizer",
+        "location": "tegel",
+        "insurance": "public"
+      },
       {
         "days": null,
         "type": "astrazeneca",
@@ -163,20 +116,14 @@
         "insurance": "public"
       },
       {
-        "days": null,
-        "type": "astrazeneca",
+        "days": 72,
+        "type": "biontech_pfizer",
         "location": "tegel",
         "insurance": "private"
       },
       {
-        "days": 77,
-        "type": "biontech_pfizer",
-        "location": "tegel",
-        "insurance": "public"
-      },
-      {
-        "days": 77,
-        "type": "biontech_pfizer",
+        "days": null,
+        "type": "astrazeneca",
         "location": "tegel",
         "insurance": "private"
       },
@@ -193,39 +140,15 @@
         "insurance": "private"
       },
       {
-        "days": 79,
+        "days": 69,
         "type": "biontech_pfizer",
         "location": "velodrom",
         "insurance": "public"
       },
       {
-        "days": 79,
+        "days": 69,
         "type": "biontech_pfizer",
         "location": "velodrom",
-        "insurance": "private"
-      },
-      {
-        "days": 75,
-        "type": "biontech_pfizer",
-        "location": "messe",
-        "insurance": "public"
-      },
-      {
-        "days": 75,
-        "type": "biontech_pfizer",
-        "location": "messe",
-        "insurance": "private"
-      },
-      {
-        "days": 72,
-        "type": "biontech_pfizer",
-        "location": "arena",
-        "insurance": "public"
-      },
-      {
-        "days": 72,
-        "type": "biontech_pfizer",
-        "location": "arena",
         "insurance": "private"
       }
     ]
