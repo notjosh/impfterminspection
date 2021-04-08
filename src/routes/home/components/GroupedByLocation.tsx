@@ -105,7 +105,7 @@ const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
 
   return (
     <>
-      <h1>Grouped by Vaccine</h1>
+      <h1>Grouped by Location</h1>
       <p>The average wait time today for vaccinations:</p>
       <ul>
         {groupForToday.map((group) => (
