@@ -1,10 +1,17 @@
-export type VaccinationType = 'astrazeneca' | 'biontech_pfizer' | 'moderna';
-export type VaccinationLocation =
-  | 'tegel'
-  | 'arena'
-  | 'velodrom'
-  | 'tempelhof'
-  | 'messe';
+export enum VaccinationType {
+  Astrazeneca = 'astrazeneca',
+  BiontechPfizer = 'biontech_pfizer',
+  Moderna = 'moderna',
+}
+
+export enum VaccinationLocation {
+  Tegel = 'tegel',
+  Arena = 'arena',
+  Velodrom = 'velodrom',
+  Tempelhof = 'tempelhof',
+  Messe = 'messe',
+}
+
 export type Insurance = 'public' | 'private';
 
 export type Vaccination = {
@@ -17,4 +24,32 @@ export type Vaccination = {
 export type ChartSourceDay = {
   date: string;
   vaccinations: Vaccination[];
+};
+
+export const vaccinationTypes = [
+  VaccinationType.BiontechPfizer,
+  VaccinationType.Astrazeneca,
+  VaccinationType.Moderna,
+];
+
+export const vaccinationTypeNames = {
+  [VaccinationType.BiontechPfizer]: 'BioNTech-Pfizer',
+  [VaccinationType.Astrazeneca]: 'AstraZeneca',
+  [VaccinationType.Moderna]: 'Moderna',
+};
+
+export const vaccinationLocations = [
+  VaccinationLocation.Tegel,
+  VaccinationLocation.Arena,
+  VaccinationLocation.Velodrom,
+  VaccinationLocation.Tempelhof,
+  VaccinationLocation.Messe,
+];
+
+export const vaccinationLocationNames = {
+  [VaccinationLocation.Tegel]: 'Tegel',
+  [VaccinationLocation.Arena]: 'Arena',
+  [VaccinationLocation.Velodrom]: 'Velodrom',
+  [VaccinationLocation.Tempelhof]: 'Tempelhof',
+  [VaccinationLocation.Messe]: 'Messe',
 };
