@@ -1,5 +1,5 @@
 import bb, { bar, line } from 'billboard.js';
-import { isEqual, uniqWith } from 'lodash';
+import { isEqual, mean, uniqWith } from 'lodash';
 import { createRef, FunctionalComponent } from 'preact';
 import { useEffect } from 'preact/hooks';
 import {
@@ -9,6 +9,7 @@ import {
   VaccinationType,
   vaccinationTypeNames,
 } from '../../../types';
+import { notEmpty } from '../../../util/notEmpty';
 
 type Props = {
   chartData: ChartSourceDay[];
@@ -18,18 +19,18 @@ const calculateAverageFor = (
   day: ChartSourceDay,
   type: VaccinationType,
   location: VaccinationLocation
-): number | null =>
-  day.vaccinations
+): number | null => {
+  const counts = day.vaccinations
     .filter((v) => v.type === type && v.location === location)
     .map((v) => v.days)
-    .reduce((average, value, _, { length }) => {
-      if (value == null) {
-        return average;
-      }
+    .filter(notEmpty);
 
-      return Math.floor((average ?? 0) + value / length);
-    }, null);
+  if (counts.length === 0) {
+    return null;
+  }
 
+  return Math.floor(mean(counts));
+};
 const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
   const chartRef = createRef<HTMLDivElement>();
 
@@ -81,6 +82,9 @@ const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
         x: {
           type: 'category',
           categories: chartData.map((day) => day.date),
+        },
+        y: {
+          label: 'Days',
         },
       },
     });
