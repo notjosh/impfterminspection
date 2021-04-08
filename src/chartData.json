@@ -157,31 +157,31 @@
     "date": "2021-04-08",
     "vaccinations": [
       {
-        "days": 60.27272727272727,
+        "days": 59.450980392156865,
         "type": "biontech_pfizer",
         "location": "arena",
         "insurance": "public"
       },
       {
-        "days": 60.27272727272727,
+        "days": 59.450980392156865,
         "type": "biontech_pfizer",
         "location": "arena",
         "insurance": "private"
       },
       {
-        "days": 45.07142857142857,
+        "days": 46.3469387755102,
         "type": "biontech_pfizer",
         "location": "messe",
         "insurance": "public"
       },
       {
-        "days": 45.55813953488372,
+        "days": 46.53061224489796,
         "type": "biontech_pfizer",
         "location": "messe",
         "insurance": "private"
       },
       {
-        "days": 69.56818181818181,
+        "days": 68.45098039215686,
         "type": "biontech_pfizer",
         "location": "tegel",
         "insurance": "public"
@@ -193,7 +193,7 @@
         "insurance": "public"
       },
       {
-        "days": 69.56818181818181,
+        "days": 69.33333333333333,
         "type": "biontech_pfizer",
         "location": "tegel",
         "insurance": "private"
@@ -205,25 +205,25 @@
         "insurance": "private"
       },
       {
-        "days": 6.454545454545454,
+        "days": 6.509803921568627,
         "type": "astrazeneca",
         "location": "tempelhof",
         "insurance": "public"
       },
       {
-        "days": 6.454545454545454,
+        "days": 6.509803921568627,
         "type": "astrazeneca",
         "location": "tempelhof",
         "insurance": "private"
       },
       {
-        "days": 68.04545454545455,
+        "days": 67.83333333333333,
         "type": "biontech_pfizer",
         "location": "velodrom",
         "insurance": "public"
       },
       {
-        "days": 68.04545454545455,
+        "days": 67.83333333333333,
         "type": "biontech_pfizer",
         "location": "velodrom",
         "insurance": "private"
