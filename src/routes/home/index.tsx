@@ -1,20 +1,22 @@
+import 'billboard.js/dist/billboard.css';
 import { FunctionalComponent } from 'preact';
 import chartDataJson from '../../chartData.json';
-import { ChartSourceDay } from '../../types';
+import { ChartSource } from '../../types';
+import CurrentStatus from './components/CurrentStatus';
 import GroupedByLocation from './components/GroupedByLocation';
 import GroupedByVaccine from './components/GroupedByVaccine';
 import style from './style.css';
-import 'billboard.js/dist/billboard.css';
 
 type Props = {};
 
-const chartData = (chartDataJson as unknown) as ChartSourceDay[];
+const chartData = (chartDataJson as unknown) as ChartSource;
 
 const Home: FunctionalComponent<Props> = () => {
   return (
     <div class={style.home}>
-      <GroupedByVaccine chartData={chartData} />
-      <GroupedByLocation chartData={chartData} />
+      <GroupedByVaccine chartData={chartData.overall} />
+      <GroupedByLocation chartData={chartData.overall} />
+      <CurrentStatus vaccinations={chartData.current} />
     </div>
   );
 };

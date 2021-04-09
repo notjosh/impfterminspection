@@ -1,7 +1,5 @@
-import bb, { bar, line } from 'billboard.js';
-import { isEqual, mean, uniqWith } from 'lodash';
-import { createRef, FunctionalComponent } from 'preact';
-import { useEffect } from 'preact/hooks';
+import { flatten, isEqual, mean, round, uniqWith } from 'lodash';
+import { FunctionalComponent } from 'preact';
 import {
   ChartSourceDay,
   VaccinationLocation,
@@ -10,6 +8,7 @@ import {
   vaccinationTypeNames,
 } from '../../../types';
 import { notEmpty } from '../../../util/notEmpty';
+import Chartable from './Chartable';
 
 type Props = {
   chartData: ChartSourceDay[];
@@ -29,11 +28,10 @@ const calculateAverageFor = (
     return null;
   }
 
-  return Math.floor(mean(counts));
+  return round(mean(counts), 2);
 };
-const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
-  const chartRef = createRef<HTMLDivElement>();
 
+const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
   // assume sorted:
   const today = chartData[chartData.length - 1];
 
@@ -55,40 +53,18 @@ const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
     day.vaccinations.map((v) => makeCombination(v))
   );
 
-  const cominationsCombined = ([] as typeof combinationsForAllDays[0]).concat.apply(
-    [],
-    combinationsForAllDays
-  );
+  const cominationsCombined = flatten(combinationsForAllDays);
 
   const combinations = uniqWith(cominationsCombined, isEqual);
 
-  useEffect(() => {
-    if (chartRef.current == null) {
-      return;
-    }
+  const chartRows = combinations.map((combination) => ({
+    label: combination.label,
+    values: chartData.map((day) =>
+      calculateAverageFor(day, combination.type, combination.location)
+    ),
+  }));
 
-    bb.generate({
-      bindto: chartRef.current,
-      data: {
-        columns: combinations.map((combination) => [
-          combination.label,
-          ...chartData.map((day) =>
-            calculateAverageFor(day, combination.type, combination.location)
-          ),
-        ]),
-        type: line(),
-      },
-      axis: {
-        x: {
-          type: 'category',
-          categories: chartData.map((day) => day.date),
-        },
-        y: {
-          label: 'Days',
-        },
-      },
-    });
-  }, [chartData, chartRef]);
+  const days = chartData.map((day) => day.date);
 
   const groupForToday = combinationForToday.reduce(
     (acc, v) => [
@@ -109,18 +85,18 @@ const GroupedByLocation: FunctionalComponent<Props> = ({ chartData }) => {
 
   return (
     <>
-      <h1>Grouped by Location</h1>
-      <p>The average wait time today for vaccinations:</p>
-      <ul>
-        {groupForToday.map((group) => (
-          <li key={group.key}>
-            {group.label}:{' '}
-            {group.value != null ? `${group.value} days` : 'unavailable'}
-          </li>
-        ))}
-      </ul>
-
-      <div ref={chartRef} />
+      <Chartable
+        title="Grouped by Location"
+        subtitle="The average wait time today for vaccinations:"
+        summaryRows={groupForToday.map(
+          (gft) =>
+            `${gft.label}: ${
+              gft.value != null ? `${gft.value} days` : 'unavailable'
+            }`
+        )}
+        chartRows={chartRows}
+        days={days}
+      />
     </>
   );
 };

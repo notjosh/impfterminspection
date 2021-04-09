@@ -21,6 +21,11 @@ export type Vaccination = {
   insurance: Insurance;
 };
 
+export type ChartSource = {
+  overall: ChartSourceDay[];
+  current: Vaccination[];
+};
+
 export type ChartSourceDay = {
   date: string;
   vaccinations: Vaccination[];

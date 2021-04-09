@@ -6,7 +6,7 @@
   "scripts": {
     "build": "preact build --no-prerender --sw false --esm false",
     "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
+    "dev": "preact watch -p 7999",
     "lint": "eslint src",
     "test": "jest"
   },

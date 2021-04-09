@@ -1,7 +1,5 @@
-import bb, { line } from 'billboard.js';
-import { mean } from 'lodash';
-import { createRef, FunctionalComponent } from 'preact';
-import { useEffect } from 'preact/hooks';
+import { mean, round } from 'lodash';
+import { FunctionalComponent } from 'preact';
 import {
   ChartSourceDay,
   VaccinationType,
@@ -9,6 +7,7 @@ import {
   vaccinationTypes,
 } from '../../../types';
 import { notEmpty } from '../../../util/notEmpty';
+import Chartable from './Chartable';
 
 type Props = {
   chartData: ChartSourceDay[];
@@ -27,36 +26,16 @@ const calculateAverageFor = (
     return null;
   }
 
-  return Math.floor(mean(counts));
+  return round(mean(counts), 2);
 };
+
 const GroupedByVaccine: FunctionalComponent<Props> = ({ chartData }) => {
-  const chartRef = createRef<HTMLDivElement>();
+  const chartRows = vaccinationTypes.map((type) => ({
+    label: vaccinationTypeNames[type],
+    values: chartData.map((day) => calculateAverageFor(day, type)),
+  }));
 
-  useEffect(() => {
-    if (chartRef.current == null) {
-      return;
-    }
-
-    bb.generate({
-      bindto: chartRef.current,
-      data: {
-        columns: vaccinationTypes.map((type) => [
-          vaccinationTypeNames[type],
-          ...chartData.map((day) => calculateAverageFor(day, type)),
-        ]),
-        type: line(),
-      },
-      axis: {
-        x: {
-          type: 'category',
-          categories: chartData.map((day) => day.date),
-        },
-        y: {
-          label: 'Days',
-        },
-      },
-    });
-  }, [chartData, chartRef]);
+  const days = chartData.map((day) => day.date);
 
   // assume sorted:
   const today = chartData[chartData.length - 1];
@@ -79,18 +58,18 @@ const GroupedByVaccine: FunctionalComponent<Props> = ({ chartData }) => {
 
   return (
     <>
-      <h1>Grouped by Vaccine</h1>
-      <p>The average wait time today for vaccinations:</p>
-      <ul>
-        {averages.map((average) => (
-          <li key={average.type}>
-            {average.name}:{' '}
-            {average.value != null ? `${average.value} days` : 'unavailable'}
-          </li>
-        ))}
-      </ul>
-
-      <div ref={chartRef} />
+      <Chartable
+        title="Grouped by Vaccine"
+        subtitle="The average wait time today for vaccinations:"
+        summaryRows={averages.map(
+          (average) =>
+            `${average.name}: ${
+              average.value != null ? `${average.value} days` : 'unavailable'
+            }`
+        )}
+        chartRows={chartRows}
+        days={days}
+      />
     </>
   );
 };
