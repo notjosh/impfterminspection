@@ -1,5 +1,10 @@
 .home {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+  padding: 56px 20px;
+  min-height: 100%;
+  width: 100%;
+}
+
+.icons img {
+  vertical-align: middle;
+  margin-right: 0.8em;
 }

@@ -22,6 +22,7 @@ export type Vaccination = {
 };
 
 export type ChartSource = {
+  updatedAt: string;
   overall: ChartSourceDay[];
   current: Vaccination[];
 };
