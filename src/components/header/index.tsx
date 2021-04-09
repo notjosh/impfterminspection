@@ -5,7 +5,7 @@ type Props = {};
 
 const Header: FunctionalComponent<Props> = () => (
   <header class={style.header}>
-    <h1>Impfterminspection</h1>
+    <h1>Impfterminspector</h1>
   </header>
 );
 

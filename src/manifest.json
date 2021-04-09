@@ -1,6 +1,6 @@
 {
-  "name": "impfterminspection",
-  "short_name": "impfterminspection",
+  "name": "impfterminspector",
+  "short_name": "impfterminspector",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
