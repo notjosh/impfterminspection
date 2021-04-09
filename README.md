@@ -1,8 +1,10 @@
 # impfterminspection
 
+This is the frontend for the [Impfterminspector](https://impfterminspector.de/) site. Data is [fetched](https://github.com/notjosh/impfterminspector) and [aggregated](https://github.com/notjosh/impfterminator) separately. There's a lot of duct tape involved.
+
 ## CLI Commands
 
-``` bash
+```bash
 # install dependencies
 npm install
 
