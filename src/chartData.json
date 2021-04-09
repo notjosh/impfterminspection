@@ -72,7 +72,7 @@
           "insurance": "public"
         },
         {
-          "days": 69,
+          "days": 70,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
@@ -113,7 +113,7 @@
           "insurance": "public"
         },
         {
-          "days": 69,
+          "days": 70,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
@@ -124,7 +124,7 @@
       "date": "2021-04-08",
       "vaccinations": [
         {
-          "days": 64,
+          "days": 64.5,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
