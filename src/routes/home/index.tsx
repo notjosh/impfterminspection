@@ -32,11 +32,11 @@ const Home: FunctionalComponent<Props> = () => {
 
       <hr />
 
-      <p>
+      {/* <p>
         <time dateTime={chartData.updatedAt}>
           Last updated: {updatedAtString}
         </time>
-      </p>
+      </p> */}
 
       <p class={style.icons}>
         <a href="https://www.netlify.com">
