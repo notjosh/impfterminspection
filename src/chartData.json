@@ -13,7 +13,7 @@
       "insurance": "public"
     },
     {
-      "days": 66,
+      "days": 72,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
@@ -212,7 +212,7 @@
           "insurance": "public"
         },
         {
-          "days": 39,
+          "days": 53,
           "type": "biontech_pfizer",
           "location": "messe",
           "insurance": "public"
