@@ -7,7 +7,7 @@
       "insurance": "public"
     },
     {
-      "days": 35,
+      "days": 63.5,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
@@ -25,7 +25,7 @@
       "insurance": "public"
     },
     {
-      "days": 2,
+      "days": 4,
       "type": "astrazeneca",
       "location": "tempelhof",
       "insurance": "public"
