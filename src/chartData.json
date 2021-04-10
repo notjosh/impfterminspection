@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2021-04-09T21:09:28.870Z",
-  "current": [],
+  "current": [
+    {
+      "days": 68,
+      "type": "biontech_pfizer",
+      "location": "arena",
+      "insurance": "public"
+    },
+    {
+      "days": 35,
+      "type": "biontech_pfizer",
+      "location": "messe",
+      "insurance": "public"
+    },
+    {
+      "days": 72,
+      "type": "biontech_pfizer",
+      "location": "tegel",
+      "insurance": "public"
+    },
+    {
+      "days": null,
+      "type": "astrazeneca",
+      "location": "tegel",
+      "insurance": "public"
+    },
+    {
+      "days": 2,
+      "type": "astrazeneca",
+      "location": "tempelhof",
+      "insurance": "public"
+    },
+    {
+      "days": null,
+      "type": "biontech_pfizer",
+      "location": "velodrom",
+      "insurance": "public"
+    }
+  ],
   "overall": [
     {
       "date": "2021-04-06",
@@ -36,7 +72,7 @@
           "insurance": "public"
         },
         {
-          "days": 69,
+          "days": 70,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
@@ -77,7 +113,7 @@
           "insurance": "public"
         },
         {
-          "days": 69,
+          "days": 70,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
@@ -88,7 +124,7 @@
       "date": "2021-04-08",
       "vaccinations": [
         {
-          "days": 64,
+          "days": 64.5,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
@@ -159,7 +195,48 @@
           "insurance": "public"
         },
         {
+          "days": 70,
+          "type": "biontech_pfizer",
+          "location": "velodrom",
+          "insurance": "public"
+        }
+      ]
+    },
+    {
+      "date": "2021-04-10",
+      "vaccinations": [
+        {
+          "days": 68,
+          "type": "biontech_pfizer",
+          "location": "arena",
+          "insurance": "public"
+        },
+        {
+          "days": 35,
+          "type": "biontech_pfizer",
+          "location": "messe",
+          "insurance": "public"
+        },
+        {
           "days": 72,
+          "type": "biontech_pfizer",
+          "location": "tegel",
+          "insurance": "public"
+        },
+        {
+          "days": null,
+          "type": "astrazeneca",
+          "location": "tegel",
+          "insurance": "public"
+        },
+        {
+          "days": 2,
+          "type": "astrazeneca",
+          "location": "tempelhof",
+          "insurance": "public"
+        },
+        {
+          "days": null,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
