@@ -7,7 +7,7 @@
       "insurance": "public"
     },
     {
-      "days": 70,
+      "days": 62,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
@@ -31,7 +31,7 @@
       "insurance": "public"
     },
     {
-      "days": 72,
+      "days": 62.5,
       "type": "biontech_pfizer",
       "location": "velodrom",
       "insurance": "public"
