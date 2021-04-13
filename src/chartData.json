@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2021-04-13T12:07:16.111Z",
+  "updatedAt": "2021-04-13T12:17:16.176Z",
   "current": [
     {
-      "days": 68,
+      "days": 69,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
     },
     {
-      "days": 45.5,
+      "days": 59.5,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
@@ -26,7 +26,7 @@
       "insurance": "public"
     },
     {
-      "days": 3.5,
+      "days": 4,
       "type": "astrazeneca",
       "location": "tempelhof",
       "insurance": "public"
@@ -354,7 +354,7 @@
           "insurance": "public"
         },
         {
-          "days": 3,
+          "days": 3.5,
           "type": "astrazeneca",
           "location": "tempelhof",
           "insurance": "public"
