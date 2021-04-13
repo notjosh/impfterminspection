@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-04-13T12:17:16.176Z",
+  "updatedAt": "2021-04-13T12:27:16.254Z",
   "current": [
     {
       "days": 69,
@@ -354,7 +354,7 @@
           "insurance": "public"
         },
         {
-          "days": 3.5,
+          "days": 3,
           "type": "astrazeneca",
           "location": "tempelhof",
           "insurance": "public"
