@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2021-04-19T09:27:18.940Z",
+  "updatedAt": "2021-04-19T09:37:18.152Z",
   "current": [
     {
-      "days": 68,
+      "days": 67.5,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
     },
     {
-      "days": 62.5,
+      "days": 65.5,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
     },
     {
-      "days": 69,
+      "days": 68.5,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
@@ -32,7 +32,7 @@
       "insurance": "public"
     },
     {
-      "days": 54,
+      "days": 67.5,
       "type": "biontech_pfizer",
       "location": "velodrom",
       "insurance": "public"
