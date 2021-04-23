@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-04-23T02:07:17.922Z",
+  "updatedAt": "2021-04-23T02:17:18.439Z",
   "current": [
     {
       "days": 63,
@@ -8,7 +8,7 @@
       "insurance": "public"
     },
     {
-      "days": 66.5,
+      "days": 66,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
@@ -746,7 +746,7 @@
           "insurance": "public"
         },
         {
-          "days": 67,
+          "days": 66.5,
           "type": "biontech_pfizer",
           "location": "messe",
           "insurance": "public"
