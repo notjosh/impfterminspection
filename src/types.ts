@@ -10,6 +10,7 @@ export enum VaccinationLocation {
   Velodrom = 'velodrom',
   Tempelhof = 'tempelhof',
   Messe = 'messe',
+  Eisstadion = 'eisstadion',
 }
 
 export type Insurance = 'public' | 'private';
