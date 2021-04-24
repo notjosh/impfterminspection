@@ -51,6 +51,7 @@ export const vaccinationLocations = [
   VaccinationLocation.Velodrom,
   VaccinationLocation.Tempelhof,
   VaccinationLocation.Messe,
+  VaccinationLocation.Eisstadion,
 ];
 
 export const vaccinationLocationNames = {
@@ -59,4 +60,5 @@ export const vaccinationLocationNames = {
   [VaccinationLocation.Velodrom]: 'Velodrom',
   [VaccinationLocation.Tempelhof]: 'Tempelhof',
   [VaccinationLocation.Messe]: 'Messe',
+  [VaccinationLocation.Eisstadion]: 'Eisstadion',
 };
