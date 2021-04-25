@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2021-04-24T23:57:16.854Z",
+  "updatedAt": "2021-04-25T00:07:17.375Z",
   "current": [
     {
-      "days": 55,
+      "days": 54,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
     },
     {
-      "days": 67,
+      "days": 66,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
     },
     {
-      "days": 68,
+      "days": 67,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
@@ -38,7 +38,7 @@
       "insurance": "public"
     },
     {
-      "days": 25,
+      "days": 24,
       "type": "moderna",
       "location": "eisstadion",
       "insurance": "public"
@@ -824,6 +824,53 @@
         },
         {
           "days": 25,
+          "type": "moderna",
+          "location": "eisstadion",
+          "insurance": "public"
+        }
+      ]
+    },
+    {
+      "date": "2021-04-25",
+      "vaccinations": [
+        {
+          "days": 58,
+          "type": "biontech_pfizer",
+          "location": "arena",
+          "insurance": "public"
+        },
+        {
+          "days": 66,
+          "type": "biontech_pfizer",
+          "location": "messe",
+          "insurance": "public"
+        },
+        {
+          "days": 67,
+          "type": "biontech_pfizer",
+          "location": "tegel",
+          "insurance": "public"
+        },
+        {
+          "days": null,
+          "type": "astrazeneca",
+          "location": "tegel",
+          "insurance": "public"
+        },
+        {
+          "days": null,
+          "type": "astrazeneca",
+          "location": "tempelhof",
+          "insurance": "public"
+        },
+        {
+          "days": null,
+          "type": "biontech_pfizer",
+          "location": "velodrom",
+          "insurance": "public"
+        },
+        {
+          "days": 24,
           "type": "moderna",
           "location": "eisstadion",
           "insurance": "public"
