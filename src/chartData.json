@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-04-26T20:47:18.830Z",
+  "updatedAt": "2021-04-26T20:57:19.553Z",
   "current": [
     {
       "days": null,
@@ -8,7 +8,7 @@
       "insurance": "public"
     },
     {
-      "days": 63,
+      "days": 64,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
@@ -32,7 +32,7 @@
       "insurance": "public"
     },
     {
-      "days": 64,
+      "days": 65,
       "type": "biontech_pfizer",
       "location": "velodrom",
       "insurance": "public"
