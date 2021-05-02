@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-02T14:57:18.732Z",
+  "updatedAt": "2021-05-02T15:07:19.452Z",
   "current": [
     {
       "days": null,
@@ -38,13 +38,13 @@
       "insurance": "public"
     },
     {
-      "days": 13,
+      "days": 13.5,
       "type": "moderna",
       "location": "tempelhof",
       "insurance": "public"
     },
     {
-      "days": 58,
+      "days": null,
       "type": "biontech_pfizer",
       "location": "velodrom",
       "insurance": "public"
