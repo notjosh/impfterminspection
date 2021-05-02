@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-02T22:47:18.536Z",
+  "updatedAt": "2021-05-02T22:57:18.184Z",
   "current": [
     {
       "days": null,
@@ -8,15 +8,9 @@
       "insurance": "public"
     },
     {
-      "days": 57.5,
+      "days": 58,
       "type": "biontech_pfizer",
       "location": "messe",
-      "insurance": "public"
-    },
-    {
-      "days": 71,
-      "type": "biontech_pfizer",
-      "location": "tegel",
       "insurance": "public"
     },
     {
@@ -53,6 +47,12 @@
       "days": 19,
       "type": "moderna",
       "location": "eisstadion",
+      "insurance": "public"
+    },
+    {
+      "days": 71,
+      "type": "biontech_pfizer",
+      "location": "tegel",
       "insurance": "public"
     }
   ],
