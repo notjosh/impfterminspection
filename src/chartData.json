@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-03T08:17:20.026Z",
+  "updatedAt": "2021-05-03T08:27:19.086Z",
   "current": [
     {
       "days": null,
@@ -26,7 +26,7 @@
       "insurance": "public"
     },
     {
-      "days": 23,
+      "days": 23.5,
       "type": "moderna",
       "location": "tegel",
       "insurance": "public"
@@ -38,7 +38,7 @@
       "insurance": "public"
     },
     {
-      "days": 21,
+      "days": 22,
       "type": "moderna",
       "location": "tempelhof",
       "insurance": "public"
