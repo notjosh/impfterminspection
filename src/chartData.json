@@ -1,12 +1,6 @@
 {
-  "updatedAt": "2021-05-06T01:57:20.443Z",
+  "updatedAt": "2021-05-06T02:07:20.175Z",
   "current": [
-    {
-      "days": null,
-      "type": "biontech_pfizer",
-      "location": "arena",
-      "insurance": "public"
-    },
     {
       "days": null,
       "type": "biontech_pfizer",
@@ -33,12 +27,6 @@
     },
     {
       "days": null,
-      "type": "astrazeneca",
-      "location": "tempelhof",
-      "insurance": "public"
-    },
-    {
-      "days": null,
       "type": "moderna",
       "location": "tempelhof",
       "insurance": "public"
@@ -47,6 +35,18 @@
       "days": null,
       "type": "biontech_pfizer",
       "location": "velodrom",
+      "insurance": "public"
+    },
+    {
+      "days": null,
+      "type": "biontech_pfizer",
+      "location": "arena",
+      "insurance": "public"
+    },
+    {
+      "days": null,
+      "type": "astrazeneca",
+      "location": "tempelhof",
       "insurance": "public"
     },
     {
