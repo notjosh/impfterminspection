@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-09T16:07:22.229Z",
+  "updatedAt": "2021-05-09T16:17:22.993Z",
   "current": [
     {
       "days": null,
@@ -14,7 +14,7 @@
       "insurance": "public"
     },
     {
-      "days": 39,
+      "days": 39.5,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
