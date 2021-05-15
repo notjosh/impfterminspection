@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-14T23:57:21.718Z",
+  "updatedAt": "2021-05-15T00:07:22.558Z",
   "current": [],
   "overall": [
     {
@@ -1868,6 +1868,10 @@
     },
     {
       "date": "2021-05-14",
+      "vaccinations": []
+    },
+    {
+      "date": "2021-05-15",
       "vaccinations": []
     }
   ]
