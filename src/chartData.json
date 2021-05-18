@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-18T09:51:46.016Z",
+  "updatedAt": "2021-05-18T10:01:45.907Z",
   "current": [
     {
       "days": null,
@@ -38,7 +38,7 @@
       "insurance": "public"
     },
     {
-      "days": null,
+      "days": 8,
       "type": "moderna",
       "location": "tempelhof",
       "insurance": "public"
@@ -50,7 +50,7 @@
       "insurance": "public"
     },
     {
-      "days": null,
+      "days": 5,
       "type": "moderna",
       "location": "eisstadion",
       "insurance": "public"
@@ -2044,7 +2044,7 @@
           "insurance": "public"
         },
         {
-          "days": 9,
+          "days": 7,
           "type": "moderna",
           "location": "eisstadion",
           "insurance": "public"
