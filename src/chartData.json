@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-05-29T11:34:13.144Z",
+  "updatedAt": "2021-05-29T14:14:28.620Z",
   "current": [
     {
       "days": null,
@@ -21,20 +21,8 @@
     },
     {
       "days": null,
-      "type": "astrazeneca",
-      "location": "tegel",
-      "insurance": "public"
-    },
-    {
-      "days": null,
       "type": "moderna",
       "location": "tegel",
-      "insurance": "public"
-    },
-    {
-      "days": null,
-      "type": "astrazeneca",
-      "location": "tempelhof",
       "insurance": "public"
     },
     {
