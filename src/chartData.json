@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2021-06-05T11:07:16.253Z",
+  "updatedAt": "2021-06-05T13:32:07.551Z",
   "current": [
     {
-      "days": null,
+      "days": 19,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
     },
     {
-      "days": 44,
+      "days": 48,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
@@ -214,7 +214,7 @@
           "insurance": "public"
         },
         {
-          "days": 72,
+          "days": 71,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
@@ -501,7 +501,7 @@
           "insurance": "public"
         },
         {
-          "days": 70,
+          "days": 72,
           "type": "biontech_pfizer",
           "location": "velodrom",
           "insurance": "public"
@@ -805,7 +805,7 @@
           "insurance": "public"
         },
         {
-          "days": 66.5,
+          "days": 66,
           "type": "biontech_pfizer",
           "location": "messe",
           "insurance": "public"
@@ -905,7 +905,7 @@
           "insurance": "public"
         },
         {
-          "days": 29,
+          "days": 30,
           "type": "biontech_pfizer",
           "location": "tegel",
           "insurance": "public"
@@ -929,7 +929,7 @@
           "insurance": "public"
         },
         {
-          "days": 18,
+          "days": 20,
           "type": "moderna",
           "location": "eisstadion",
           "insurance": "public"
@@ -1105,7 +1105,7 @@
           "insurance": "public"
         },
         {
-          "days": 60,
+          "days": 59.5,
           "type": "biontech_pfizer",
           "location": "messe",
           "insurance": "public"
@@ -1282,9 +1282,15 @@
           "insurance": "public"
         },
         {
-          "days": 57,
+          "days": 56.5,
           "type": "biontech_pfizer",
           "location": "messe",
+          "insurance": "public"
+        },
+        {
+          "days": 70,
+          "type": "biontech_pfizer",
+          "location": "tegel",
           "insurance": "public"
         },
         {
@@ -1294,7 +1300,7 @@
           "insurance": "public"
         },
         {
-          "days": 13,
+          "days": 16,
           "type": "moderna",
           "location": "tegel",
           "insurance": "public"
@@ -1321,12 +1327,6 @@
           "days": 18,
           "type": "moderna",
           "location": "eisstadion",
-          "insurance": "public"
-        },
-        {
-          "days": 70,
-          "type": "biontech_pfizer",
-          "location": "tegel",
           "insurance": "public"
         }
       ]
@@ -1524,7 +1524,7 @@
           "insurance": "public"
         },
         {
-          "days": 39,
+          "days": 42,
           "type": "biontech_pfizer",
           "location": "tegel",
           "insurance": "public"
@@ -1583,7 +1583,7 @@
           "insurance": "public"
         },
         {
-          "days": 48,
+          "days": 49,
           "type": "biontech_pfizer",
           "location": "tegel",
           "insurance": "public"
@@ -1890,7 +1890,7 @@
           "insurance": "public"
         },
         {
-          "days": 76,
+          "days": null,
           "type": "moderna",
           "location": "tegel",
           "insurance": "public"
@@ -2008,7 +2008,7 @@
           "insurance": "public"
         },
         {
-          "days": 72,
+          "days": 72.5,
           "type": "biontech_pfizer",
           "location": "tegel",
           "insurance": "public"
@@ -2150,7 +2150,7 @@
           "insurance": "public"
         },
         {
-          "days": 4,
+          "days": 1,
           "type": "moderna",
           "location": "tempelhof",
           "insurance": "public"
@@ -3046,13 +3046,13 @@
       "date": "2021-06-05",
       "vaccinations": [
         {
-          "days": null,
+          "days": 15.5,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
         },
         {
-          "days": 44,
+          "days": 46,
           "type": "biontech_pfizer",
           "location": "messe",
           "insurance": "public"
