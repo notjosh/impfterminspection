@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2021-06-07T15:11:39.164Z",
+  "updatedAt": "2021-06-07T15:21:31.269Z",
   "current": [
     {
-      "days": null,
+      "days": 43,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
     },
     {
-      "days": 50,
+      "days": 51,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
     },
     {
-      "days": null,
+      "days": 27,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
@@ -50,7 +50,7 @@
       "insurance": "public"
     },
     {
-      "days": 52.5,
+      "days": 53,
       "type": "moderna",
       "location": "eisstadion",
       "insurance": "public"
@@ -3164,7 +3164,7 @@
       "date": "2021-06-07",
       "vaccinations": [
         {
-          "days": 9,
+          "days": 13,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
@@ -3176,7 +3176,7 @@
           "insurance": "public"
         },
         {
-          "days": 42.5,
+          "days": 42,
           "type": "biontech_pfizer",
           "location": "tegel",
           "insurance": "public"
