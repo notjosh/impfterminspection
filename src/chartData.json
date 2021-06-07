@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-06-07T05:01:38.114Z",
+  "updatedAt": "2021-06-07T05:11:29.065Z",
   "current": [
     {
       "days": null,
@@ -8,13 +8,13 @@
       "insurance": "public"
     },
     {
-      "days": 45,
+      "days": 33,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
     },
     {
-      "days": null,
+      "days": 23.5,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
@@ -3170,13 +3170,13 @@
           "insurance": "public"
         },
         {
-          "days": 45,
+          "days": 33,
           "type": "biontech_pfizer",
           "location": "messe",
           "insurance": "public"
         },
         {
-          "days": null,
+          "days": 23.5,
           "type": "biontech_pfizer",
           "location": "tegel",
           "insurance": "public"
