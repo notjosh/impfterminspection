@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2021-06-14T11:02:08.965Z",
+  "updatedAt": "2021-06-14T11:12:12.564Z",
   "current": [
     {
-      "days": 30.5,
+      "days": 40,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
     },
     {
-      "days": 38,
+      "days": 42,
       "type": "biontech_pfizer",
       "location": "messe",
       "insurance": "public"
     },
     {
-      "days": 36,
+      "days": 39,
       "type": "biontech_pfizer",
       "location": "tegel",
       "insurance": "public"
@@ -3577,7 +3577,7 @@
       "date": "2021-06-14",
       "vaccinations": [
         {
-          "days": 39,
+          "days": 39.5,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
