@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-06-16T20:52:38.274Z",
+  "updatedAt": "2021-06-16T21:02:19.620Z",
   "current": [
     {
       "days": 42,
@@ -44,13 +44,13 @@
       "insurance": "public"
     },
     {
-      "days": 37,
+      "days": 37.5,
       "type": "biontech_pfizer",
       "location": "velodrom",
       "insurance": "public"
     },
     {
-      "days": 42,
+      "days": 41,
       "type": "moderna",
       "location": "eisstadion",
       "insurance": "public"
