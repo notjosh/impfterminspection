@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2021-06-22T18:22:43.054Z",
+  "updatedAt": "2021-06-22T18:32:46.006Z",
   "current": [
     {
-      "days": 15,
+      "days": 13.5,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
@@ -4097,7 +4097,7 @@
           "insurance": "public"
         },
         {
-          "days": 10,
+          "days": 10.5,
           "type": "moderna",
           "location": "eisstadion",
           "insurance": "public"
