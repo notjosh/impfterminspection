@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2021-06-22T18:52:50.349Z",
+  "updatedAt": "2021-06-22T19:02:43.384Z",
   "current": [
     {
-      "days": 14,
+      "days": 24,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
@@ -4049,7 +4049,7 @@
       "date": "2021-06-22",
       "vaccinations": [
         {
-          "days": 21.5,
+          "days": 22,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
