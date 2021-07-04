@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2021-07-04T23:23:27.509Z",
+  "updatedAt": "2021-07-04T23:33:22.713Z",
   "current": [
     {
-      "days": null,
+      "days": 6,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
@@ -50,7 +50,7 @@
       "insurance": "public"
     },
     {
-      "days": 12,
+      "days": null,
       "type": "moderna",
       "location": "eisstadion",
       "insurance": "public"
@@ -4816,7 +4816,7 @@
       "date": "2021-07-05",
       "vaccinations": [
         {
-          "days": null,
+          "days": 6,
           "type": "biontech_pfizer",
           "location": "arena",
           "insurance": "public"
