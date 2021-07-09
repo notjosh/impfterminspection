@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2021-07-09T10:43:47.325Z",
+  "updatedAt": "2021-07-09T10:53:48.379Z",
   "current": [
     {
-      "days": 30,
+      "days": 28,
       "type": "biontech_pfizer",
       "location": "arena",
       "insurance": "public"
