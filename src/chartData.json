@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-07-22T00:54:51.388Z",
+  "updatedAt": "2021-07-22T01:04:48.181Z",
   "current": [
     {
       "days": null,
@@ -27,12 +27,6 @@
     },
     {
       "days": null,
-      "type": "moderna",
-      "location": "tegel",
-      "insurance": "public"
-    },
-    {
-      "days": null,
       "type": "astrazeneca",
       "location": "tempelhof",
       "insurance": "public"
@@ -53,6 +47,12 @@
       "days": 3,
       "type": "moderna",
       "location": "eisstadion",
+      "insurance": "public"
+    },
+    {
+      "days": null,
+      "type": "moderna",
+      "location": "tegel",
       "insurance": "public"
     }
   ],
