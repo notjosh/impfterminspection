@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2021-07-24T15:25:06.214Z",
+  "updatedAt": "2021-07-24T15:35:03.659Z",
   "current": [
     {
       "days": null,
@@ -50,7 +50,7 @@
       "insurance": "public"
     },
     {
-      "days": 3,
+      "days": 2,
       "type": "moderna",
       "location": "eisstadion",
       "insurance": "public"
